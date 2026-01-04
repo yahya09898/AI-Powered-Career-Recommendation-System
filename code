@@ -1,0 +1,10 @@
+total = 0
+for each subject in subjects:
+    total = total + (subject.mark * subject.weight)
+
+avg = total / numberOfSubjects
+
+if avg >= 85:
+    print("Recommend: AI, Data Science, Engineering")
+else:
+    print("Recommend: IT Support, Business, Marketing")
